@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "battle of brains",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "play",
+            "play the game"
+          ]
+        },
+        {
+          "name": "RulesIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "rules",
+            "say rules",
+            "please say the rules"
+          ]
+        },
+        {
+          "name": "CluesIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "clues",
+            "say clues",
+            "please say the clues"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Alexa skill battle-of-brains created for hackathon using APL",
+          "examplePhrases": [
+            "Alexa open battle of brains",
+            "Alexa tell battle of brains",
+            "Alexa ask battle of brains to play"
+          ],
+          "name": "battle-of-brains",
+          "description": "Alexa skill battle-of-brains created for hackathon using APL"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
