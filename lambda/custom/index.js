@@ -109,10 +109,20 @@ const CancelAndStopIntentHandler = {
       && (handlerInput.requestEnvelope.request.intent.name === 'AMAZON.CancelIntent'
         || handlerInput.requestEnvelope.request.intent.name === 'AMAZON.StopIntent');
   },
-  handle(handlerInput) {
-    const speechText = 'Goodbye!';
+  async handle(handlerInput) {
+    const attributesManager = handlerInput.attributesManager;
+    const responseBuilder = handlerInput.responseBuilder;
+    const sessionAttributes = attributesManager.getSessionAttributes();
 
-    return handlerInput.responseBuilder
+    sessionAttributes.endedSessionCount += 1;
+    sessionAttributes.gameState = 'ENDED';
+    attributesManager.setPersistentAttributes(sessionAttributes);
+
+    await attributesManager.savePersistentAttributes();
+
+    const speechText = 'Ok, see you next time!';
+
+    return responseBuilder
       .speak(speechText)
       .withSimpleCard('Battle of Brains', speechText)
       .getResponse();
