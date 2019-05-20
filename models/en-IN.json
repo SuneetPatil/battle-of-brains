@@ -2,43 +2,47 @@
   "interactionModel": {
     "languageModel": {
       "invocationName": "battle of brains",
-      "types": [
-
-      ],
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
-          "samples": [
-
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.HelpIntent",
-          "samples": [
-
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.StopIntent",
-          "samples": [
-
-          ]
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
         },
         {
           "name": "PlayIntent",
           "slots": [
-
+            {
+              "name": "answer",
+              "type": "BoB_ANSWERS"
+            }
           ],
           "samples": [
+            "{answer} is my answer",
+            "{answer} is the answer",
+            "{answer}",
+            "answer is {answer}",
             "play",
             "play the game"
           ]
         },
         {
           "name": "RulesIntent",
-          "slots": [
-
-          ],
+          "slots": [],
           "samples": [
             "rules",
             "say rules",
@@ -47,16 +51,67 @@
         },
         {
           "name": "CluesIntent",
-          "slots": [
-
-          ],
+          "slots": [],
           "samples": [
+            "clue",
             "clues",
             "say clues",
             "please say the clues"
           ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "West Bengal",
+                "synonyms": [
+                  "west",
+                  "bengal",
+                  "west bengal"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "black hole of calcutta incident",
+                "synonyms": [
+                  "calcutta incident",
+                  "black hole of calcutta incident",
+                  "black hole"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Robert Clive",
+                "synonyms": [
+                  "robert clive",
+                  "clive",
+                  "robert"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Alivardi Khan",
+                "synonyms": [
+                  "alivardi",
+                  "khan",
+                  "alivardi khan"
+                ]
+              }
+            }
+          ],
+          "name": "BoB_ANSWERS"
         }
       ]
     }
-  }
+  },
+  "version": "5"
 }
