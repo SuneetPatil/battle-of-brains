@@ -1,2 +1,2 @@
-# battle-of-brains
-Alexa skill battle-of-brains created for hackathon using APL
+# Battle-of-Brains
+Alexa skill Battle-of-Brains created for hackathon using APL
