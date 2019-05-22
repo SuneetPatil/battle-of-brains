@@ -25,5 +25,18 @@ In each level, first user will be provided with an overview of the specific batt
 # To Use This Code:
 1. Update your src/index.js file.
 
-## License :
+# Sample Conversation:
+ 
+    User: Alexa, Launch Battle of Brains.
+    Alexa: {Greetings} + Say Play to start the game or Rules to know the rules.
+    User: Rules
+    Alexa: {Tells rules} + Shall we start the game?
+    User: Yes
+    Alexa: {Brief introduction about the battle} + {Askes question}
+    User: Clue
+    Alexa: {Tells clue}
+    User: {Tells right answer}
+    Alexa: Thats correct answer.
+
+# License :
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/SuneetPatil/battle-of-brains/blob/master/LICENSE) file for details.
