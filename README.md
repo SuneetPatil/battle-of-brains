@@ -21,3 +21,6 @@ In each level, first user will be provided with an overview of the specific batt
 *	Creating interest among users by creating the game in multiple levels, giving badges for users who answer faster and correctly and creating leader boards.
 
 ![alt Architecture](https://github.com/SuneetPatil/battle-of-brains/blob/master/Screenshots/Architecture.png) 
+
+# To Use This Code:
+1. Update your src/index.js file.
