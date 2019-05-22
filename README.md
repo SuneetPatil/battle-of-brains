@@ -24,3 +24,6 @@ In each level, first user will be provided with an overview of the specific batt
 
 # To Use This Code:
 1. Update your src/index.js file.
+
+## License :
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/SuneetPatil/battle-of-brains/blob/master/LICENSE) file for details.
