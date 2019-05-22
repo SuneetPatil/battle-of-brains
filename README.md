@@ -19,3 +19,5 @@ In each level, first user will be provided with an overview of the specific batt
 *	Exploring the ancient historic wars using simple voice commands.
 *	Store all the user progress using sessions and storing in database
 *	Creating interest among users by creating the game in multiple levels, giving badges for users who answer faster and correctly and creating leader boards.
+
+![alt Architecture](https://github.com/SuneetPatil/battle-of-brains/blob/master/Screenshots/Architecture.png) 
