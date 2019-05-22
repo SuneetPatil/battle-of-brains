@@ -2,7 +2,7 @@
 Alexa skill Battle-of-Brains created for hackathon to demonstrate voice based games for screen-less and screened devices (APL) using Alexa.
 
 # Brief Demonstrating Skill: 
-  **Demo Video:** YouTube Link
+  **Demo Video:** [YouTube Link](https://youtu.be/9HmSq3hs_Ss)
   
   We have observed that Kids of this generation spend lots and lots of time in social media to explore new things. They are even found of games than studies. So, most of Educational institutes are finding a way in making kids explore the education in the form of games and videos.
 
